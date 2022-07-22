@@ -5,6 +5,7 @@ from tensorflow.keras import models
 from recording_helper import record_audio, terminate
 from tf_helper import preprocess_audiobuffer
 
+# !! Modify this in the correct order
 commands = ['left', 'down', 'stop', 'up', 'right', 'no', 'go', 'yes']
 
 loaded_model = models.load_model("saved_model")
